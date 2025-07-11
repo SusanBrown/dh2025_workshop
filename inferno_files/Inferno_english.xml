@@ -135,10 +135,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/SusanBrown/dh2025_workshop/main/inferno_files/Inferno_english.xml?person_annotation_20250710214836879",
+	"id": "https://raw.githubusercontent.com/SusanBrown/dh2025_workshop/main/inferno_files/Inferno_english.xml?person_annotation_20250710215054899",
 	"type": "oa:Annotation",
-	"dcterms:created": "2025-07-11T01:48:36.879Z",
-	"dcterms:modified": "2025-07-11T01:50:19.753Z",
+	"dcterms:created": "2025-07-11T01:50:54.899Z",
+	"dcterms:modified": "2025-07-11T01:51:05.143Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/SusanBrown",
 		"@type": [
@@ -149,7 +149,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/SusanBrown/dh2025_workshop/main/inferno_files/Inferno_english.xml?person_annotation_20250710214836879#Target",
+		"@id": "https://raw.githubusercontent.com/SusanBrown/dh2025_workshop/main/inferno_files/Inferno_english.xml?person_annotation_20250710215054899#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/SusanBrown/dh2025_workshop/main/inferno_files/Inferno_english.xml",
@@ -163,14 +163,14 @@
 			"schema:softwareVersion": "3.9.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/SusanBrown/dh2025_workshop/main/inferno_files/Inferno_english.xml?person_annotation_20250710214836879#Selector",
+			"@id": "https://raw.githubusercontent.com/SusanBrown/dh2025_workshop/main/inferno_files/Inferno_english.xml?person_annotation_20250710215054899#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/lg[19]/l[2]/persName"
+			"rdf:value": "TEI/text/body/div/lg[19]/l[3]/persName"
 		}
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:NaturalPerson",
-		"@id": "http://www.wikidata.org/entity/Q313421",
+		"@id": "http://www.wikidata.org/entity/Q9077",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -312,7 +312,7 @@
             <lg n="19">
                <l n="55">Hence he drew forth the shade of the First Parent,</l>
                <l n="56">And that of his son <persName key="Abel" ref="http://www.wikidata.org/entity/Q313421">Abel</persName>, and of <persName key="Noah" ref="http://www.wikidata.org/entity/Q81422" cert="high" type="fictional">Noah</persName>,</l>
-               <l n="57">Of <persName>Moses</persName> the lawgiver, and the obedient</l>
+               <l n="57">Of <persName key="Moses" ref="http://www.wikidata.org/entity/Q9077">Moses</persName> the lawgiver, and the obedient</l>
             </lg>
 
             <lg n="20">
