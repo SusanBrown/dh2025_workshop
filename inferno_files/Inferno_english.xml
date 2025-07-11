@@ -55,7 +55,7 @@
 	"id": "https://raw.githubusercontent.com/SusanBrown/dh2025_workshop/main/inferno_files/Inferno_english.xml?person_annotation_20250710213839207",
 	"type": "oa:Annotation",
 	"dcterms:created": "2025-07-11T01:38:39.207Z",
-	"dcterms:modified": "2025-07-11T01:38:39.207Z",
+	"dcterms:modified": "2025-07-11T01:40:19.734Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/SusanBrown",
 		"@type": [
