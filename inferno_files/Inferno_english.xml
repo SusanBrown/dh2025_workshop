@@ -113,7 +113,7 @@
             </lg>
 
             <lg n="13" xml:id="lg013">
-               <l n="37">And if they were before <orgName key="Christianity" ref="http://dbpedia.org/resource/Christianity" ana="webannotation:http://temp.lincsproject.ca/nhddUIJedXx">Christianity</orgName>,</l>
+               <l n="37">And if they were before <orgName key="Christianity" ref="http://www.wikidata.org/entity/Q5043" ana="webannotation:http://temp.lincsproject.ca/EBqgdrj3c4u">Christianity</orgName>,</l>
                <l n="38">In the right manner they adored not God;</l>
                <l n="39">And among such as these am I myself.</l>
             </lg>
@@ -349,20 +349,20 @@
 	<standOff type="annotation">
 		<xenoData>
 			<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/nhddUIJedXx">
+				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/EBqgdrj3c4u">
 <![CDATA[{
     "@context": [
         "http://www.w3.org/ns/anno.jsonld",
         "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
         "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
     ],
-    "id": "http://temp.lincsproject.ca/nhddUIJedXx",
+    "id": "http://temp.lincsproject.ca/EBqgdrj3c4u",
     "type": [
         "Annotation",
         "crm:E33_Linguistic_Object"
     ],
     "motivation": "oa:identifying",
-    "created": "2025-07-15T02:49:51.315Z",
+    "created": "2025-07-15T02:50:07.356Z",
     "creator": {
         "id": "https://github.com/susanbrown",
         "type": "crm:E21_Person",
@@ -422,14 +422,22 @@
                     "crm:E73_Information_Object"
                 ],
                 "value": "[ana~=webannotation:http://temp.lincsproject.ca/nhddUIJedXx]"
+            },
+            {
+                "id": "/target/gP4aQeLi2Uv/selector/css/5i8MiwrkRUl",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/EBqgdrj3c4u]"
             }
         ]
     },
     "body": {
-        "id": "http://dbpedia.org/resource/Christianity",
+        "id": "http://www.wikidata.org/entity/Q5043",
         "type": "crm:E28_Conceptual_Object",
         "label": "Christianity",
-        "description": "Christianity is an Abrahamic monotheistic religion based on the life and teachings of Jesus of Nazareth. Its adherents, known as Christians, believe that Jesus is the Christ, whose coming as the messiah was prophesied in the Hebrew Bible, called the Old Testament in Christianity, and chronicled in the New Testament. It is the world's largest religion with about 2.4 billion followers."
+        "description": "Abrahamic monotheistic religion"
     },
     "P2_has_type": [
         "oa:identifying"
