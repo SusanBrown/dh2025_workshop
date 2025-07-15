@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="https://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/LEAF-VRE/code_snippets/refs/heads/23-refine-leaf-css/CSS/leaf.css"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/LEAF-VRE/code_snippets/refs/heads/23-refine-leaf-css/CSS/leaf.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -42,7 +41,7 @@
          <div type="canto">
             <pb facs="https://upload.wikimedia.org/wikipedia/commons/3/38/Inferno_Canto_4_four_bards.jpg"/>
             <head>The Inferno: Canto IV</head>
-            <byline>Dante Alighieri</byline>
+            <byline><persName>Dante Alighieri</persName></byline>
             <lg n="1" xml:id="lg001">
                <l n="1">Broke the deep lethargy within my head</l>
                <l n="2">A heavy thunder, so that I upstarted,</l>
@@ -69,7 +68,7 @@
 
             <lg n="5" xml:id="lg005">
                <l n="13">“Let us descend now into the blind world,”</l>
-               <l n="14">Began the Poet, pallid utterly;</l>
+               <l n="14">Began <persName>the Poet</persName>, pallid utterly;</l>
                <l n="15">“I will be first, and thou shalt second be.”</l>
             </lg>
 
@@ -218,7 +217,7 @@
             </lg>
 
             <lg n="30" xml:id="lg030">
-               <l n="88">That one is Homer, Poet sovereign;</l>
+               <l n="88">That one is <persName cert="high" type="fictional">Homer</persName>, Poet sovereign;</l>
                <l n="89">He who comes next is Horace, the satirist;</l>
                <l n="90">The third is Ovid, and the last is Lucan.</l>
             </lg>
