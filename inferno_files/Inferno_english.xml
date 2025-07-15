@@ -113,7 +113,7 @@
             </lg>
 
             <lg n="13" xml:id="lg013">
-               <l n="37">And if they were before <orgName key="Christianity" ref="http://www.wikidata.org/entity/Q5043" ana="webannotation:http://temp.lincsproject.ca/EBqgdrj3c4u">Christianity</orgName>,</l>
+               <l n="37">And if they were before <orgName key="Christianity" ref="http://www.wikidata.org/entity/Q5043" ana="webannotation:http://temp.lincsproject.ca/EBqgdrj3c4u" cert="high">Christianity</orgName>,</l>
                <l n="38">In the right manner they adored not God;</l>
                <l n="39">And among such as these am I myself.</l>
             </lg>
@@ -440,7 +440,8 @@
         "description": "Abrahamic monotheistic religion"
     },
     "P2_has_type": [
-        "oa:identifying"
+        "oa:identifying",
+        "edit:certaintyHigh"
     ]
 }]]>
 				</rdf:Description>
