@@ -217,7 +217,7 @@
             <lg n="30" xml:id="lg030">
                <l n="88">That one is <persName key="Homer" ref="http://viaf.org/viaf/224924963" ana="webannotation:http://temp.lincsproject.ca/sJqDaTz2rSV">Homer</persName>, Poet sovereign;</l>
                <l n="89">He who comes next is <persName key="Horace" ref="http://www.wikidata.org/entity/Q6197" ana="webannotation:http://temp.lincsproject.ca/DYIcfKbfEKb">Horace</persName>, the satirist;</l>
-               <l n="90">The third is <persName key="Ovidius Naso, Publius" ref="http://viaf.org/viaf/88342447" ana="webannotation:http://temp.lincsproject.ca/qcmp4HsmbQ7">Ovid</persName>, and the last is Lucan.</l>
+               <l n="90">The third is <persName key="Ovidius Naso, Publius" ref="http://viaf.org/viaf/88342447" ana="webannotation:http://temp.lincsproject.ca/qcmp4HsmbQ7">Ovid</persName>, and the last is <persName key="Lucan" ref="http://www.wikidata.org/entity/Q188646" ana="webannotation:http://temp.lincsproject.ca/fO1YIDohy7Q">Lucan</persName>.</l>
             </lg>
 
             <lg n="31" xml:id="lg031">
@@ -604,6 +604,93 @@
         "type": "crm:E21_Person",
         "label": "Ovidius Naso, Publius",
         "description": "Ovid, 43 B.C.-17 A.D. or 18 A.D."
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				</rdf:Description>
+				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/fO1YIDohy7Q">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/fO1YIDohy7Q",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2025-07-15T02:31:37.617Z",
+    "creator": {
+        "id": "https://github.com/susanbrown",
+        "type": "crm:E21_Person",
+        "name": "Susan Brown"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.1.0"
+    },
+    "target": {
+        "id": "/target/2xPwa25EZq9",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/SusanBrown/dh2025_workshop/main/inferno_files/Inferno_english.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/SusanBrown/dh2025_workshop/main/inferno_files/Inferno_english.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "The Inferno"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/2xPwa25EZq9/selector/textPosition/OYusW2ewOTv",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 5992,
+                "end": 5997,
+                "refinedBy": {
+                    "id": "/target/2xPwa25EZq9/selector/textQuote/iotEgYGFonK",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Lucan",
+                    "prefix": "\n            \n\n            \n               That one is Homer, Poet sovereign;\n               He who comes next is Horace, the satirist;\n               The third is Ovid, and the last is",
+                    "suffix": "\n            \n\n            \n               Because to each of these with me applies\n               The name that solitary voice proclaimed,\n               They do me honour, and in that do well"
+                }
+            },
+            {
+                "id": "/target/2xPwa25EZq9/selector/css/6wQ3zkRmuhg",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/fO1YIDohy7Q]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://www.wikidata.org/entity/Q188646",
+        "type": "crm:E21_Person",
+        "label": "Lucan",
+        "description": "Roman poet"
     },
     "P2_has_type": [
         "oa:identifying"
