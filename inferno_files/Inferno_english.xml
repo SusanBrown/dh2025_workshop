@@ -215,7 +215,7 @@
             </lg>
 
             <lg n="30" xml:id="lg030">
-               <l n="88">That one is <persName key="Homer" ref="http://viaf.org/viaf/224924963" ana="webannotation:http://temp.lincsproject.ca/vwhAhoSJCjj">Homer</persName>, Poet sovereign;</l>
+               <l n="88">That one is Homer, Poet sovereign;</l>
                <l n="89">He who comes next is <persName key="Horace" ref="http://viaf.org/viaf/100227522" ana="webannotation:http://temp.lincsproject.ca/B6lJ6y77tk3">Horace</persName>, the satirist;</l>
                <l n="90">The third is <persName key="Ovidius Naso, Publius" ref="http://viaf.org/viaf/88342447" ana="webannotation:http://temp.lincsproject.ca/xQ5JGfrPKRi">Ovid</persName>, and the last is <persName key="Lucan" ref="http://www.wikidata.org/entity/Q188646" ana="webannotation:http://temp.lincsproject.ca/g5DEbZigkof">Lucan</persName>.</l>
             </lg>
@@ -349,93 +349,6 @@
 	<standOff type="annotation">
 		<xenoData>
 			<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/vwhAhoSJCjj">
-<![CDATA[{
-    "@context": [
-        "http://www.w3.org/ns/anno.jsonld",
-        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
-        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
-    ],
-    "id": "http://temp.lincsproject.ca/vwhAhoSJCjj",
-    "type": [
-        "Annotation",
-        "crm:E33_Linguistic_Object"
-    ],
-    "motivation": "oa:identifying",
-    "created": "2025-07-15T02:48:31.728Z",
-    "creator": {
-        "id": "https://github.com/susanbrown",
-        "type": "crm:E21_Person",
-        "name": "Susan Brown"
-    },
-    "generator": {
-        "id": "https://nerve.lincsproject.ca",
-        "type": [
-            "Software",
-            "crm:E73_Information_Object"
-        ],
-        "P16_used_specific_object": "https://nerve.lincsproject.ca",
-        "name": "NERVE",
-        "softwareVersion": "0.1.0"
-    },
-    "target": {
-        "id": "/target/6y2wKJFsyJq",
-        "type": [
-            "SpecificResource",
-            "crm:E73_Information_Object"
-        ],
-        "source": {
-            "id": "https://raw.githubusercontent.com/SusanBrown/dh2025_workshop/main/inferno_files/Inferno_english.xml",
-            "type": "crm:D1_Digital_Object",
-            "format": "application/tei+xml",
-            "language": "en",
-            "P1_is_identified_by": {
-                "id": "https://raw.githubusercontent.com/SusanBrown/dh2025_workshop/main/inferno_files/Inferno_english.xml/title",
-                "type": "crm:E33_E41_Linguistic_Appellation",
-                "title": "The Inferno"
-            }
-        },
-        "selector": [
-            {
-                "id": "/target/6y2wKJFsyJq/selector/textPosition/78IHoxHTTWf",
-                "type": [
-                    "TextPositionSelector",
-                    "crm:E73_Information_Object"
-                ],
-                "start": 5861,
-                "end": 5866,
-                "refinedBy": {
-                    "id": "/target/6y2wKJFsyJq/selector/textQuote/R8o65akKtne",
-                    "type": [
-                        "TextQuoteSelector",
-                        "crm:E33_Linguistic_Object"
-                    ],
-                    "exact": "Homer",
-                    "prefix": "\n            \n\n            \n               That one is",
-                    "suffix": " Poet sovereign;\n               He who comes next is Horace, the satirist;\n               The third is Ovid, and the last is Lucan"
-                }
-            },
-            {
-                "id": "/target/6y2wKJFsyJq/selector/css/e5UJSW7hLtw",
-                "type": [
-                    "CssSelector",
-                    "crm:E73_Information_Object"
-                ],
-                "value": "[ana~=webannotation:http://temp.lincsproject.ca/vwhAhoSJCjj]"
-            }
-        ]
-    },
-    "body": {
-        "id": "http://viaf.org/viaf/224924963",
-        "type": "crm:E21_Person",
-        "label": "Homer",
-        "description": "Homerus"
-    },
-    "P2_has_type": [
-        "oa:identifying"
-    ]
-}]]>
-				</rdf:Description>
 				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/B6lJ6y77tk3">
 <![CDATA[{
     "@context": [
