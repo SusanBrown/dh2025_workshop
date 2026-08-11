@@ -424,7 +424,7 @@
             </lg>
 
             <lg n="13" xml:id="lg013">
-               <l n="37">And if they were before Christianity,</l>
+               <l n="37">And if they were before <orgName key="Christianity" ref="http://vocab.getty.edu/aat/300073711" ana="webannotation:http://temp.lincsproject.ca/tWNsMf4Ohbx">Christianity</orgName>,</l>
                <l n="38">In the right manner they adored not God;</l>
                <l n="39">And among such as these am I myself.</l>
             </lg>
@@ -657,4 +657,103 @@
          </div>
       </body>
    </text>
+	<standOff type="annotation">
+		
+<xenoData>
+			
+<rdf:RDF>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/tWNsMf4Ohbx">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/tWNsMf4Ohbx",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-08-11T14:13:42.393Z",
+    "creator": {
+        "id": "https://github.com/susanbrown",
+        "type": "crm:E21_Person",
+        "name": "Susan Brown"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/ToyUs1gBNMe",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/SusanBrown/dh2025_workshop/main/inferno_files/Inferno_english.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/SusanBrown/dh2025_workshop/main/inferno_files/Inferno_english.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "The Inferno"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/ToyUs1gBNMe/selector/textPosition/d1kbR1o6RXi",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 2507,
+                "end": 2519,
+                "refinedBy": {
+                    "id": "/target/ToyUs1gBNMe/selector/textQuote/vO2BdrOz01a",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Christianity",
+                    "prefix": "\n            \n\n            \n               To me the Master good: “Thou dost not ask\n               What spirits these, which thou beholdest, are?\n               Now will I have thee know, ere thou go farther,\n            \n\n            \n               That they sinned not; and if they merit had,\n               ’Tis not enough, because they had not baptism\n               Which is the portal of the Faith thou holdest;\n            \n\n            \n               And if they were before",
+                    "suffix": "\n               In the right manner they adored not God;\n               And among such as these am I myself"
+                }
+            },
+            {
+                "id": "/target/ToyUs1gBNMe/selector/css/A3SRQYlxPVj",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/tWNsMf4Ohbx]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://vocab.getty.edu/aat/300073711",
+        "type": "crm:E74_Group",
+        "label": "Christianity",
+        "description": ""
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+			
+</rdf:RDF>
+		
+</xenoData>
+	</standOff>
 </TEI>
