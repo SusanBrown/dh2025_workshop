@@ -623,7 +623,7 @@
 
             <lg n="46" xml:id="lg046">
                <l n="136">Democritus, who puts the world on chance,</l>
-               <l n="137">Diogenes, Anaxagoras, and Thales,</l>
+               <l n="137"><persName key="Diogenes, Laertius" ref="http://viaf.org/viaf/41839141" ana="webannotation:http://temp.lincsproject.ca/JwErWMKFbO3">Diogenes</persName>, Anaxagoras, and Thales,</l>
                <l n="138">Zeno, Empedocles, and Heraclitus;</l>
             </lg>
 
@@ -1455,6 +1455,95 @@
         "type": "crm:E53_Place",
         "label": "Land of Israel",
         "description": ""
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/JwErWMKFbO3">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/JwErWMKFbO3",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-08-11T14:22:36.005Z",
+    "creator": {
+        "id": "https://github.com/susanbrown",
+        "type": "crm:E21_Person",
+        "name": "Susan Brown"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/OdPWJzkkZsb",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/SusanBrown/dh2025_workshop/main/inferno_files/Inferno_english.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/SusanBrown/dh2025_workshop/main/inferno_files/Inferno_english.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "The Inferno"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/OdPWJzkkZsb/selector/textPosition/hqNq0cesaDj",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 9002,
+                "end": 9010,
+                "refinedBy": {
+                    "id": "/target/OdPWJzkkZsb/selector/textQuote/e8nvLu0uvh3",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Diogenes",
+                    "prefix": "\n               There I beheld both Socrates and Plato,\n               Who nearer him before the others stand;\n            \n\n            \n               Democritus, who puts the world on chance,\n              ",
+                    "suffix": " Anaxagoras, and Thales,\n               Zeno, Empedocles, and Heraclitus;\n            \n\n            \n               Of qualities I saw the good collector,\n               Hight Dioscorides; and Orpheus saw I,\n               Tully and Livy, and moral Seneca,\n            \n\n            \n               Euclid, geometrician, and Ptolemy,\n               Galen, Hippocrates, and Avicenna,\n               Averroes, who the great Comment made"
+                }
+            },
+            {
+                "id": "/target/OdPWJzkkZsb/selector/css/xEy8K66tacX",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/JwErWMKFbO3]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/41839141",
+        "type": "crm:E21_Person",
+        "label": "Diogenes, Laertius",
+        "description": "Diogène Laërce, 02..-02.."
     },
     "P2_has_type": [
         "oa:identifying"
