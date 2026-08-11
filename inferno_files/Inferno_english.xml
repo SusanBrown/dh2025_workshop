@@ -349,7 +349,7 @@
       <body>
          <div type="canto">
             <pb facs="https://upload.wikimedia.org/wikipedia/commons/3/38/Inferno_Canto_4_four_bards.jpg"/>
-            <head>The Inferno: Canto IV</head>
+            <head><title key="The Inferno" ref="http://www.wikidata.org/entity/Q131677836" ana="webannotation:http://temp.lincsproject.ca/y1hKbX5A4Rc">The Inferno</title>: Canto IV</head>
             <byline><persName key="Dante Alighieri, 1265-1321." ref="http://viaf.org/viaf/97105654">Dante Alighieri</persName></byline>
             <lg n="1" xml:id="lg001">
                <l n="1">Broke the deep lethargy within my head</l>
@@ -424,7 +424,7 @@
             </lg>
 
             <lg n="13" xml:id="lg013">
-               <l n="37">And if they were before <orgName key="Christianity" ref="http://vocab.getty.edu/aat/300073711" ana="webannotation:http://temp.lincsproject.ca/tWNsMf4Ohbx">Christianity</orgName>,</l>
+               <l n="37">And if they were before Christianity,</l>
                <l n="38">In the right manner they adored not God;</l>
                <l n="39">And among such as these am I myself.</l>
             </lg>
@@ -663,20 +663,20 @@
 			
 <rdf:RDF>
 				
-<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/tWNsMf4Ohbx">
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/y1hKbX5A4Rc">
 <![CDATA[{
     "@context": [
         "http://www.w3.org/ns/anno.jsonld",
         "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
         "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
     ],
-    "id": "http://temp.lincsproject.ca/tWNsMf4Ohbx",
+    "id": "http://temp.lincsproject.ca/y1hKbX5A4Rc",
     "type": [
         "Annotation",
         "crm:E33_Linguistic_Object"
     ],
     "motivation": "oa:identifying",
-    "created": "2026-08-11T14:13:42.393Z",
+    "created": "2026-08-11T14:14:54.187Z",
     "creator": {
         "id": "https://github.com/susanbrown",
         "type": "crm:E21_Person",
@@ -693,7 +693,7 @@
         "softwareVersion": "0.3.0"
     },
     "target": {
-        "id": "/target/ToyUs1gBNMe",
+        "id": "/target/4oGQ9ZwiQlf",
         "type": [
             "SpecificResource",
             "crm:E73_Information_Object"
@@ -711,39 +711,38 @@
         },
         "selector": [
             {
-                "id": "/target/ToyUs1gBNMe/selector/textPosition/d1kbR1o6RXi",
+                "id": "/target/4oGQ9ZwiQlf/selector/textPosition/iNu9o0jUOwJ",
                 "type": [
                     "TextPositionSelector",
                     "crm:E73_Information_Object"
                 ],
-                "start": 2507,
-                "end": 2519,
+                "start": 43,
+                "end": 54,
                 "refinedBy": {
-                    "id": "/target/ToyUs1gBNMe/selector/textQuote/vO2BdrOz01a",
+                    "id": "/target/4oGQ9ZwiQlf/selector/textQuote/STF03cTciu1",
                     "type": [
                         "TextQuoteSelector",
                         "crm:E33_Linguistic_Object"
                     ],
-                    "exact": "Christianity",
-                    "prefix": "\n            \n\n            \n               To me the Master good: “Thou dost not ask\n               What spirits these, which thou beholdest, are?\n               Now will I have thee know, ere thou go farther,\n            \n\n            \n               That they sinned not; and if they merit had,\n               ’Tis not enough, because they had not baptism\n               Which is the portal of the Faith thou holdest;\n            \n\n            \n               And if they were before",
-                    "suffix": "\n               In the right manner they adored not God;\n               And among such as these am I myself"
+                    "exact": "The Inferno",
+                    "prefix": "\n      \n         \n            \n           ",
+                    "suffix": " Canto IV\n            Dante Alighieri\n            \n               Broke the deep lethargy within my head\n               A heavy thunder, so that I upstarted,\n               Like to a person who by force is wakened;\n            \n\n            \n               And round about I moved my rested eyes,\n               Uprisen erect, and steadfastly I gazed,\n               To recognise the place wherein I was"
                 }
             },
             {
-                "id": "/target/ToyUs1gBNMe/selector/css/A3SRQYlxPVj",
+                "id": "/target/4oGQ9ZwiQlf/selector/css/vIuycbPHKNd",
                 "type": [
                     "CssSelector",
                     "crm:E73_Information_Object"
                 ],
-                "value": "[ana~=webannotation:http://temp.lincsproject.ca/tWNsMf4Ohbx]"
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/y1hKbX5A4Rc]"
             }
         ]
     },
     "body": {
-        "id": "http://vocab.getty.edu/aat/300073711",
-        "type": "crm:E74_Group",
-        "label": "Christianity",
-        "description": ""
+        "id": "http://www.wikidata.org/entity/Q131677836",
+        "type": "frbroo:F1",
+        "label": "The Inferno"
     },
     "P2_has_type": [
         "oa:identifying"
