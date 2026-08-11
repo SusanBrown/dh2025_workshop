@@ -599,7 +599,7 @@
 
             <lg n="42" xml:id="lg042">
                <l n="124">I saw Camilla and Penthesilea</l>
-               <l n="125">On the other side, and saw the King Latinus,</l>
+               <l n="125">On the other side, and saw the King <persName key="Josephus, Flavius." ref="http://viaf.org/viaf/22143666" ana="webannotation:http://temp.lincsproject.ca/W3WSqD5sMjE">Latinus</persName>,</l>
                <l n="126">Who with Lavinia his daughter sat;</l>
             </lg>
 
@@ -743,6 +743,95 @@
         "id": "http://www.wikidata.org/entity/Q131677836",
         "type": "frbroo:F1",
         "label": "The Inferno"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/W3WSqD5sMjE">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/W3WSqD5sMjE",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-08-11T14:15:19.733Z",
+    "creator": {
+        "id": "https://github.com/susanbrown",
+        "type": "crm:E21_Person",
+        "name": "Susan Brown"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/1bTLtTUyKuY",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/SusanBrown/dh2025_workshop/main/inferno_files/Inferno_english.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/SusanBrown/dh2025_workshop/main/inferno_files/Inferno_english.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "The Inferno"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/1bTLtTUyKuY/selector/textPosition/Xc3L0ZrVJoR",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 8277,
+                "end": 8284,
+                "refinedBy": {
+                    "id": "/target/1bTLtTUyKuY/selector/textQuote/UklLSJ6fPZH",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Latinus",
+                    "prefix": "\n            \n\n            \n               I saw Electra with companions many,\n               ’Mongst whom I knew both Hector and Aeneas,\n               Caesar in armour with gerfalcon eyes;\n            \n\n            \n               I saw Camilla and Penthesilea\n               On the other side, and saw the King",
+                    "suffix": "\n               Who with Lavinia his daughter sat;\n            \n\n            \n               I saw that Brutus who drove Tarquin forth,\n               Lucretia, Julia, Marcia, and Cornelia,\n               And saw alone, apart, the Saladin"
+                }
+            },
+            {
+                "id": "/target/1bTLtTUyKuY/selector/css/hsWlnq88WeE",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/W3WSqD5sMjE]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/22143666",
+        "type": "crm:E21_Person",
+        "label": "Josephus, Flavius.",
+        "description": "Flavius Josèphe, 0038?-0100?"
     },
     "P2_has_type": [
         "oa:identifying"
