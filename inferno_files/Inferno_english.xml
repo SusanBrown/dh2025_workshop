@@ -461,7 +461,7 @@
 
             <lg n="19" xml:id="lg019">
                <l n="55">Hence he drew forth the shade of the First Parent,</l>
-               <l n="56">And that of his son Abel, and of Noah,</l>
+               <l n="56">And that of his son Abel, and of <persName key="Noah" ref="http://www.wikidata.org/entity/Q81422" ana="webannotation:http://temp.lincsproject.ca/dSQuzkvDW5i">Noah</persName>,</l>
                <l n="57">Of Moses the lawgiver, and the obedient</l>
             </lg>
 
@@ -1010,6 +1010,95 @@
         "type": "crm:E74_Group",
         "label": "Christianity",
         "description": ""
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/dSQuzkvDW5i">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/dSQuzkvDW5i",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-08-11T14:19:30.622Z",
+    "creator": {
+        "id": "https://github.com/susanbrown",
+        "type": "crm:E21_Person",
+        "name": "Susan Brown"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/BVsaOQWp2mL",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/SusanBrown/dh2025_workshop/main/inferno_files/Inferno_english.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/SusanBrown/dh2025_workshop/main/inferno_files/Inferno_english.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "The Inferno"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/BVsaOQWp2mL/selector/textPosition/r3Gk3VKvVkE",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 3749,
+                "end": 3753,
+                "refinedBy": {
+                    "id": "/target/BVsaOQWp2mL/selector/textQuote/7BAbms2Aycs",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Noah",
+                    "prefix": "\n            \n\n            \n               Hence he drew forth the shade of the First Parent,\n               And that of his son Abel, and of",
+                    "suffix": "\n               Of Moses the lawgiver, and the obedient\n            \n\n            \n               Abraham, patriarch, and David, king,\n               Israel with his father and his children,\n               And Rachel, for whose sake he did so much,\n            \n\n            \n               And others many, and he made them blessed;\n               And thou must know, that earlier than these\n               Never were any human spirits saved"
+                }
+            },
+            {
+                "id": "/target/BVsaOQWp2mL/selector/css/hvsFKpca3zf",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/dSQuzkvDW5i]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://www.wikidata.org/entity/Q81422",
+        "type": "crm:E21_Person",
+        "label": "Noah",
+        "description": "biblical prophet, son of Lamech, major figure in the Book of Genesis"
     },
     "P2_has_type": [
         "oa:identifying"
