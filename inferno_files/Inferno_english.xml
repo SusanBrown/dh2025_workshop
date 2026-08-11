@@ -462,7 +462,7 @@
             <lg n="19" xml:id="lg019">
                <l n="55">Hence he drew forth the shade of the First Parent,</l>
                <l n="56">And that of his son Abel, and of <persName key="Noah" ref="http://www.wikidata.org/entity/Q81422" ana="webannotation:http://temp.lincsproject.ca/dSQuzkvDW5i">Noah</persName>,</l>
-               <l n="57">Of Moses the lawgiver, and the obedient</l>
+               <l n="57">Of <persName key="Moses" ref="http://www.wikidata.org/entity/Q9077" ana="webannotation:http://temp.lincsproject.ca/yk411Ne7WlB">Moses</persName> the lawgiver, and the obedient</l>
             </lg>
 
             <lg n="20" xml:id="lg020">
@@ -1099,6 +1099,95 @@
         "type": "crm:E21_Person",
         "label": "Noah",
         "description": "biblical prophet, son of Lamech, major figure in the Book of Genesis"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/yk411Ne7WlB">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/yk411Ne7WlB",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-08-11T14:19:37.531Z",
+    "creator": {
+        "id": "https://github.com/susanbrown",
+        "type": "crm:E21_Person",
+        "name": "Susan Brown"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/0JCErSXUPFw",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/SusanBrown/dh2025_workshop/main/inferno_files/Inferno_english.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/SusanBrown/dh2025_workshop/main/inferno_files/Inferno_english.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "The Inferno"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/0JCErSXUPFw/selector/textPosition/k02KDVLko7C",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 3773,
+                "end": 3778,
+                "refinedBy": {
+                    "id": "/target/0JCErSXUPFw/selector/textQuote/MZsMLCGiNtZ",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Moses",
+                    "prefix": "\n            \n\n            \n               Hence he drew forth the shade of the First Parent,\n               And that of his son Abel, and of Noah,\n               Of",
+                    "suffix": "the lawgiver, and the obedient\n            \n\n            \n               Abraham, patriarch, and David, king,\n               Israel with his father and his children,\n               And Rachel, for whose sake he did so much,\n            \n\n            \n               And others many, and he made them blessed;\n               And thou must know, that earlier than these\n               Never were any human spirits saved"
+                }
+            },
+            {
+                "id": "/target/0JCErSXUPFw/selector/css/sTnhlF5my7g",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/yk411Ne7WlB]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://www.wikidata.org/entity/Q9077",
+        "type": "crm:E21_Person",
+        "label": "Moses",
+        "description": "Abrahamic prophet said to have led the Israelites out of Egypt"
     },
     "P2_has_type": [
         "oa:identifying"
